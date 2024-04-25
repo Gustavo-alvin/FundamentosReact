@@ -2,6 +2,7 @@
 import './App.css'
 import Eventos from './componentes/Eventos'
 import PrimeiroComponente from './componentes/PrimeiroComponente'
+import RenderLista from './componentes/RenderLista'
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
       <PrimeiroComponente />
 
       <Eventos/>
+      <RenderLista/>
     </div>
   )
 }
