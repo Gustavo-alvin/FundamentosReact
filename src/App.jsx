@@ -2,6 +2,7 @@
 import './App.css'
 import Eventos from './componentes/Eventos'
 import PrimeiroComponente from './componentes/PrimeiroComponente'
+import ProximoTermo from './componentes/ProximoTermo'
 import RenderLista from './componentes/RenderLista'
 
 function App() {
@@ -13,10 +14,9 @@ function App() {
     <div>
       <h1>Fundamentos Reacts</h1>
 
-      <PrimeiroComponente />
+      <ProximoTermo />
 
-      <Eventos/>
-      <RenderLista/>
+     
     </div>
   )
 }
